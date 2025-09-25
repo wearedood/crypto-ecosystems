@@ -1,0 +1,8 @@
+-- Add Talent Protocol ecosystem
+ecoadd TalentProtocol
+
+-- Add Talent Protocol main repository
+repadd TalentProtocol https://github.com/talentprotocol/web-dapp #dapp
+
+-- Connect TalentProtocol as a sub-ecosystem of Ethereum
+ecocon Ethereum TalentProtocol
