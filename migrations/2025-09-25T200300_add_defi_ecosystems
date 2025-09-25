@@ -1,0 +1,25 @@
+// Add popular DeFi ecosystems to crypto taxonomy
+
+// Add Aave ecosystem
+ecoadd Aave
+repadd Aave https://github.com/aave/aave-v3-core #defi #lending
+repadd Aave https://github.com/aave/interface #defi #frontend
+ecocon Ethereum Aave
+
+// Add Compound ecosystem
+ecoadd Compound
+repadd Compound https://github.com/compound-finance/compound-protocol #defi #lending
+repadd Compound https://github.com/compound-finance/compound-js #defi #sdk
+ecocon Ethereum Compound
+
+// Add MakerDAO ecosystem
+ecoadd MakerDAO
+repadd MakerDAO https://github.com/makerdao/dss #defi #stablecoin
+repadd MakerDAO https://github.com/makerdao/multicollateral-collateral-plugin #defi
+ecocon Ethereum MakerDAO
+
+// Add Curve ecosystem
+ecoadd Curve
+repadd Curve https://github.com/curvefi/curve-contract #defi #amm
+repadd Curve https://github.com/curvefi/curve-dao-contracts #defi #governance
+ecocon Ethereum Curve
